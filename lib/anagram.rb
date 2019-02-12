@@ -14,4 +14,10 @@ def match(array)
   end
     @word_array
 end
+
+# def match(array)
+#array.select {|word| word.split("").sort == @name.split("").sort}
+#end
+
+
 end
